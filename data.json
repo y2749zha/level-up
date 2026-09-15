@@ -1,0 +1,1266 @@
+{
+  "modules": [
+    {
+      "id": "m1",
+      "icon": "♠",
+      "title": {
+        "en": "Welcome to Shengji",
+        "zh": "认识升级"
+      },
+      "meta": {
+        "en": "Overview",
+        "zh": "游戏概览"
+      },
+      "subtitle": {
+        "en": "Meet the table: four players, two teams, one climbing rank.",
+        "zh": "认识牌桌：四位玩家，两支队伍，一路攀升的等级。"
+      },
+      "content": {
+        "en": "<p>Shengji (升级, literally \"level up\") is a trick-taking card game for <b>four players in two fixed partnerships</b>. Partners sit <b>across the table</b> from each other, so the turn order alternates between the two teams as play goes around. You’ll also hear the game called <b>Tractor</b> (拖拉机, Tuolaji) — a nickname for its signature move, which you’ll meet in a later lesson.</p><p>Each hand uses <b>two full 52-card decks plus four jokers</b> — <b>108 cards</b> in total (two big jokers, two small). Add one more deck for every two extra players at a bigger table.</p><h3>Host team vs. defenders</h3><p>Every hand, one team is the <b>host team</b> (庄家, <i>zhuāngjiā</i> — literally \"the host\") and the other is the <b>defending team</b> (闲家, <i>xiánjiā</i>). The defenders’ job is to capture enough valuable cards during play to hold the host team back. If they succeed, the roles flip for the next hand. If they fail, the host team’s rank climbs — and they host again.</p><div class=\"callout\"><b>The big picture</b>It’s a tug-of-war played one hand at a time: the host team tries to climb a shared rank ladder from 2 up to Ace; defenders try to knock them off it. We’ll unpack exactly how points and rank work in the next two lessons.</div>",
+        "zh": "<p>升级（Shēngjí，字面意思是\"升级\"）是一种四人参与、结成两组固定搭档的吃墩游戏。搭档相对而坐，因此出牌顺序会在两支队伍之间交替进行。这个游戏也常被称为<b>拖拉机</b>（Tuolaji）——因为它最具代表性的牌型，你会在后面的课程中认识它。</p><p>每一局使用<b>两副完整的扑克牌加四张大小王</b>——一共 <b>108 张牌</b>（两张大王、两张小王）。如果玩家更多，每增加两位玩家就多加一副牌。</p><h3>攻方与守方</h3><p>每一局，一支队伍是<b>攻方</b>（庄家，zhuāngjiā——字面意思是\"做东的一方\"），另一支是<b>守方</b>（闲家，xiánjiā）。守方的任务是在出牌中尽量抢下有分值的牌，把攻方\"守住\"。如果守方成功，下一局双方角色互换。如果守方没能拦住，攻方的等级就会上升——并且继续担任攻方。</p><div class=\"callout\"><b>全局思路</b>这其实是一局一局展开的拔河比赛：攻方努力把共同的等级阶梯从 2 一路爬到 A；守方则努力把他们拉下来。接下来两节课会讲清楚分数和等级具体是怎么运作的。</div>"
+      },
+      "questions": [
+        {
+          "q": {
+            "en": "How many players does standard Shengji use, and how are they grouped?",
+            "zh": "标准升级由多少玩家组成，他们如何分组？"
+          },
+          "options": {
+            "en": [
+              "4 players, two fixed partnerships sitting opposite each other",
+              "4 players, everyone for themselves",
+              "6 players in two teams of three",
+              "4 players, with partners sitting next to each other"
+            ],
+            "zh": [
+              "4名玩家，两组固定搭档相对而坐",
+              "4名玩家，各自为战",
+              "6名玩家分成两组，每组三人",
+              "4名玩家，搭档相邻而坐"
+            ]
+          },
+          "correct": 0,
+          "explain": {
+            "en": "Standard Shengji is played by 4 players in two fixed partnerships. Partners sit across the table from each other, so turns alternate between the two teams.",
+            "zh": "标准升级由4名玩家、两组固定搭档进行。搭档相对而坐，因此出牌顺序在两支队伍之间交替。"
+          }
+        },
+        {
+          "q": {
+            "en": "How many cards are in play for a standard 4-player game?",
+            "zh": "标准4人局一共使用多少张牌？"
+          },
+          "options": {
+            "en": [
+              "52 — one deck",
+              "104 — two decks, no jokers",
+              "108 — two decks plus 4 jokers",
+              "40 — a stripped deck"
+            ],
+            "zh": [
+              "52张——一副牌",
+              "104张——两副牌，不含大小王",
+              "108张——两副牌加4张大小王",
+              "40张——去掉部分牌的简化牌组"
+            ]
+          },
+          "correct": 2,
+          "explain": {
+            "en": "Two full decks (2×52 = 104) plus 4 jokers (2 big, 2 small) makes 108 cards for a 4-player game. Add one more deck per two extra players.",
+            "zh": "两副完整扑克牌（2×52=104）加上4张大小王（2张大王、2张小王），4人局一共是108张牌。玩家每增加两人，再加一副牌。"
+          }
+        },
+        {
+          "q": {
+            "en": "What is the defending team trying to do during a hand?",
+            "zh": "在一局牌中，守方的目标是什么？"
+          },
+          "options": {
+            "en": [
+              "Capture enough point-cards to flip the roles and stop the host team’s climb",
+              "Avoid winning any tricks at all",
+              "Declare the main before anyone else",
+              "Discard their whole hand into the bottom cards"
+            ],
+            "zh": [
+              "抢下足够多的分牌，逼迫角色互换，拦住攻方的等级上升",
+              "尽量一墩都不赢",
+              "抢在所有人之前亮主",
+              "把手里的牌全部埋进底牌"
+            ]
+          },
+          "correct": 0,
+          "explain": {
+            "en": "Defenders win the hand — and become the new host team — by capturing enough point-cards in tricks they take.",
+            "zh": "守方通过在自己赢下的墩里抢到足够多的分牌来赢下这一局——并因此在下一局成为新的攻方。"
+          }
+        },
+        {
+          "q": {
+            "en": "What happens to a team’s rank when they succeed as the host team?",
+            "zh": "当攻方顺利守住这一局时，队伍的等级会发生什么变化？"
+          },
+          "options": {
+            "en": [
+              "It resets to 2",
+              "It stays exactly the same forever",
+              "It climbs upward, e.g. from 2 toward Ace",
+              "It becomes irrelevant after the first hand"
+            ],
+            "zh": [
+              "重置回2",
+              "永远保持不变",
+              "向上攀升，比如从2逐步升向A",
+              "从第一局之后就不再重要"
+            ]
+          },
+          "correct": 2,
+          "explain": {
+            "en": "A team’s rank is a ladder from 2 up to Ace. Successful hosting hands push a team’s rank up that ladder.",
+            "zh": "队伍的等级是一条从2到A的阶梯。攻方打赢的每一局都会推动等级向上攀升。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "icon": "分",
+      "title": {
+        "en": "Counting Points",
+        "zh": "计算分数"
+      },
+      "meta": {
+        "en": "Card values",
+        "zh": "牌的分值"
+      },
+      "subtitle": {
+        "en": "Only three ranks carry points — everything else is worth zero.",
+        "zh": "只有三种点数带分，其余的牌都是0分。"
+      },
+      "content": {
+        "en": "<p>Winning a trick matters only because of <b>what’s in it</b>. Most cards are worth nothing when captured — only three ranks carry point value:</p>{{DIAGRAM:pointsTable}}<p>Every other card — Aces, Jacks, Queens, 2s through 9s, and both jokers — is worth <b>0 points</b> when captured. That doesn’t make them useless: an Ace or a main card can still be one of the strongest cards in your hand to <i>play</i>, even though it never adds to the score.</p><div class=\"callout\"><b>Worth remembering</b>Playing strength and point value are two different things. A card can be unbeatable in a trick and still be worth zero points if captured.</div>",
+        "zh": "<p>能不能赢下一墩之所以重要，全看这一墩里装了什么。大多数牌被抢到手里都不算分——只有三种点数带分值：</p>{{DIAGRAM:pointsTable}}<p>其余所有的牌——A、J、Q、2到9，以及大小王——被抢到手里都是<b>0分</b>。但这不代表它们没用：A或主牌在<i>出牌</i>时可能是手里最强的牌之一，即便被人抢到手也一分不加。</p><div class=\"callout\"><b>值得记住</b>出牌的威力和牌的分值是两回事。一张牌可能在一墩里所向无敌，被抢走时却是0分。</div>"
+      },
+      "questions": [
+        {
+          "q": {
+            "en": "Which cards are worth points when captured in a trick?",
+            "zh": "哪些牌在被抢到手时算分？"
+          },
+          "options": {
+            "en": [
+              "Aces, Kings, and Jokers",
+              "5s, 10s, and Kings",
+              "Every card is worth something",
+              "Only cards of the main suit"
+            ],
+            "zh": [
+              "A、K和大小王",
+              "5、10和K",
+              "每张牌都算分",
+              "只有主牌花色的牌才算分"
+            ]
+          },
+          "correct": 1,
+          "explain": {
+            "en": "Only 5s (5 pts), 10s (10 pts), and Kings (10 pts) carry points. Every other card — including Aces and Jokers — is worth 0, even if it’s powerful to play.",
+            "zh": "只有5（5分）、10（10分）和K（10分）带分值。其余所有牌——包括A和大小王——都是0分，尽管它们出牌时可能很有威力。"
+          }
+        },
+        {
+          "q": {
+            "en": "How many total points are in play in a standard 108-card game?",
+            "zh": "在标准108张牌局中，一共有多少总分？"
+          },
+          "options": {
+            "en": [
+              "100",
+              "150",
+              "200",
+              "108"
+            ],
+            "zh": [
+              "100",
+              "150",
+              "200",
+              "108"
+            ]
+          },
+          "correct": 2,
+          "explain": {
+            "en": "8 fives × 5 + 8 tens × 10 + 8 kings × 10 = 40 + 80 + 80 = 200 points total.",
+            "zh": "8张5 × 5分 + 8张10 × 10分 + 8张K × 10分 = 40 + 80 + 80 = 共200分。"
+          }
+        },
+        {
+          "q": {
+            "en": "What is a Queen worth when captured?",
+            "zh": "一张Q被抢到手时算多少分？"
+          },
+          "options": {
+            "en": [
+              "10 points",
+              "5 points",
+              "0 points",
+              "1 point"
+            ],
+            "zh": [
+              "10分",
+              "5分",
+              "0分",
+              "1分"
+            ]
+          },
+          "correct": 2,
+          "explain": {
+            "en": "Queens carry no points — like Aces, Jacks, and all non-5/10/K cards, a Queen scores 0 even though it may be worth a lot strategically.",
+            "zh": "Q不带分——和A、J以及所有非5/10/K的牌一样，即便战略价值很高，Q被抢走也是0分。"
+          }
+        },
+        {
+          "q": {
+            "en": "True or false: a card worth 0 points is always a weak card to play.",
+            "zh": "判断对错：一张0分的牌出牌时一定很弱。"
+          },
+          "options": {
+            "en": [
+              "True",
+              "False — an Ace or a main card can be very powerful even though it scores 0"
+            ],
+            "zh": [
+              "对",
+              "错——A或主牌即便是0分，出牌时也可能非常强"
+            ]
+          },
+          "correct": 1,
+          "explain": {
+            "en": "Point value and playing strength are different things. Aces and main cards often win tricks even though they add nothing to the point tally.",
+            "zh": "分值和出牌的威力是两回事。A和主牌经常能赢下一墩，尽管它们不给分数加分。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "icon": "级",
+      "title": {
+        "en": "The Ladder",
+        "zh": "等级阶梯"
+      },
+      "meta": {
+        "en": "Rank system",
+        "zh": "等级制度"
+      },
+      "subtitle": {
+        "en": "Every team climbs its own rank, from 2 toward Ace.",
+        "zh": "每支队伍各自攀爬自己的等级，从2一路升向A。"
+      },
+      "content": {
+        "en": "<p>Each <b>team</b> — not each player — tracks its own current rank, starting at <b>2</b> when a match begins. The ladder runs 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A.</p><p>Whichever team is <b>hosting</b> on a given hand plays for <i>their own</i> current rank — that rank becomes the hand’s <b>main rank</b> for everyone at the table. If your team is sitting at rank 7, then every 7 in the deck becomes a main card for that hand (we’ll see exactly how in the next lesson).</p>{{DIAGRAM:rankLadder}}<p>Win big as the host team, and your rank jumps several steps at once. Lose ground, and the defending team takes over as the new host team — now climbing from wherever <i>their</i> rank sits. We’ll cover exactly how many steps in the scoring lesson.</p><div class=\"callout\"><b>Preview</b>To actually win the match, a team must reach rank Ace <i>and</i> hold the defenders back while hosting at that rank — you can’t leapfrog past Ace with one huge win at a lower rank.</div>",
+        "zh": "<p>每支<b>队伍</b>——而不是每个玩家——各自记录自己当前的等级，比赛开始时都从<b>2</b>起步。等级阶梯依次是2、3、4、5、6、7、8、9、10、J、Q、K、A。</p><p>某一局中担任<b>攻方</b>的队伍，打的就是<i>他们自己</i>当前的等级——这个等级会成为这一局全场通用的<b>主牌点数</b>。如果你的队伍等级是7，那么这一局里所有的7都会变成主牌（下一课会讲清楚具体是怎么变的）。</p>{{DIAGRAM:rankLadder}}<p>作为攻方大获全胜，等级就会一口气跳好几级。如果没能守住，守方就会接管攻方的位置——从<i>他们自己</i>当前的等级继续往上爬。具体跳几级，计分那节课会讲清楚。</p><div class=\"callout\"><b>预告</b>要真正赢下整场比赛，一支队伍必须打到A级，并且在担任攻方时守住这一局——不能靠在低等级打出一局大胜就直接跳过A。</div>"
+      },
+      "questions": [
+        {
+          "q": {
+            "en": "What starting rank does every team begin a match at?",
+            "zh": "比赛开始时，每支队伍的起始等级是多少？"
+          },
+          "options": {
+            "en": [
+              "Ace",
+              "2",
+              "King",
+              "It varies randomly"
+            ],
+            "zh": [
+              "A",
+              "2",
+              "K",
+              "随机决定"
+            ]
+          },
+          "correct": 1,
+          "explain": {
+            "en": "Every team starts at rank 2 and climbs the ladder (2→3→…→K→A) as they win hands while hosting.",
+            "zh": "每支队伍都从等级2开始，随着担任攻方并打赢，沿阶梯（2→3→……→K→A）向上攀升。"
+          }
+        },
+        {
+          "q": {
+            "en": "Whose current rank determines the main rank for a given hand?",
+            "zh": "某一局的主牌点数，由谁的当前等级决定？"
+          },
+          "options": {
+            "en": [
+              "The dealer’s personal rank",
+              "The defending team’s rank",
+              "The host team’s current rank",
+              "It’s always fixed at 2 for the whole match"
+            ],
+            "zh": [
+              "庄家个人的等级",
+              "守方的等级",
+              "攻方当前的等级",
+              "整场比赛都固定是2"
+            ]
+          },
+          "correct": 2,
+          "explain": {
+            "en": "The host team’s current rank becomes that hand’s main rank — if they’re on rank 7, the 7s become the main for that hand.",
+            "zh": "攻方当前的等级就是这一局的主牌点数——如果他们在7级，这一局的7就是主牌。"
+          }
+        },
+        {
+          "q": {
+            "en": "Is rank tracked per player or per team?",
+            "zh": "等级是按玩家记录，还是按队伍记录？"
+          },
+          "options": {
+            "en": [
+              "Per player — each of the 4 players has their own rank",
+              "Per team — partners share one rank"
+            ],
+            "zh": [
+              "按玩家——4位玩家各有各的等级",
+              "按队伍——搭档共享同一个等级"
+            ]
+          },
+          "correct": 1,
+          "explain": {
+            "en": "Rank belongs to the partnership, not the individual. Both partners rise and fall together.",
+            "zh": "等级属于整支搭档队伍，而不是某个人。搭档二人的等级永远一起升降。"
+          }
+        },
+        {
+          "q": {
+            "en": "What must a team do to eventually win the whole match?",
+            "zh": "一支队伍要赢下整场比赛，必须做到什么？"
+          },
+          "options": {
+            "en": [
+              "Reach rank Ace and successfully hold the defenders back while hosting",
+              "Simply be the first to reach rank 10",
+              "Win a single hand by a landslide, at any rank",
+              "Capture all 200 points in one hand"
+            ],
+            "zh": [
+              "打到A级，并在担任攻方时守住这一局",
+              "第一个打到10级即可",
+              "在任意等级打出一局压倒性大胜",
+              "一局之内抢下全部200分"
+            ]
+          },
+          "correct": 0,
+          "explain": {
+            "en": "A team wins only by hosting a hand where the main rank is Ace and holding the defenders below the flip threshold — not by skipping past Ace with a big win lower down.",
+            "zh": "一支队伍只有在担任攻方、主牌点数为A的那一局守住守方（不让对方分数超过界限），才能赢下比赛——不能靠低等级的大胜直接跳过A。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "icon": "主",
+      "title": {
+        "en": "The Main Order",
+        "zh": "主牌大小顺序"
+      },
+      "meta": {
+        "en": "Main hierarchy",
+        "zh": "主牌等级"
+      },
+      "subtitle": {
+        "en": "Jokers on top, then the rank card, then the rest of the main.",
+        "zh": "大小王在最上面，接着是本级的主牌点数，再往下是其余的主牌。"
+      },
+      "content": {
+        "en": "<p>Say your team’s rank is <b>7</b> and, during the deal, your side claims <b>Clubs</b> as the main suit (next lesson explains how). Here’s the full pecking order that results, from strongest to weakest:</p><div class=\"diagram\"><div class=\"diagram-title\">Main order — rank 7, suit ♣</div>{{DIAGRAM:trumpLadder:7:♣}}</div><p>Every card outside that list is an ordinary side-suit card, ranked normally within its own suit (Ace high) — with its own rank-7 removed, since that copy was promoted up to the main.</p><h3>A quirk worth knowing</h3><p>Because the rank card is pulled out of the main suit’s normal order, the cards on either side of it become <b>adjacent</b>. With 7 as the main rank, 6♣ and 8♣ sit right next to each other in the main suit — a detail that matters once you learn about tractors.</p><div class=\"callout variation\"><b>Common variation</b>If the strongest possible declaration — a pair of matching jokers — wins the deal, the hand is played <b>with no main suit at all</b>. Only the 4 jokers and the 8 main-rank cards (two per suit) are the main; all four regular suits play as ordinary side suits.</div>",
+        "zh": "<p>假设你的队伍等级是<b>7</b>，发牌过程中你方亮出<b>梅花</b>作为主牌花色（下一课会讲怎么亮主）。由此产生的完整大小顺序，从最强到最弱依次是：</p><div class=\"diagram\"><div class=\"diagram-title\">主牌顺序 —— 等级7，梅花主</div>{{DIAGRAM:trumpLadder:7:♣}}</div><p>名单之外的每一张牌，都是普通的副牌，按各自花色正常排列（A最大）——各花色里的那张本级点数（这里是7）已经被抽走升格为主牌。</p><h3>一个值得留意的细节</h3><p>因为本级点数牌被从主牌花色的正常顺序里抽走了，它两边的牌就会变得<b>相邻</b>。等级是7的时候，梅花的6和8在主牌花色里就紧挨在一起——这个细节在学拖拉机时会用到。</p><div class=\"callout variation\"><b>常见变化</b>如果最强的亮主方式——一对大小王——获胜，这一局就会<b>完全没有主牌花色</b>。这时只有4张大小王和8张本级点数牌（每个花色两张）算主牌；其余四个花色都按普通副牌处理。</div>"
+      },
+      "questions": [
+        {
+          "q": {
+            "en": "Which of these always ranks highest in any hand?",
+            "zh": "下列哪张牌在任何一局里都永远排在最上面？"
+          },
+          "options": {
+            "en": [
+              "The Ace of the main suit",
+              "The Big Joker",
+              "The main-rank card in the main suit",
+              "The King of the main suit"
+            ],
+            "zh": [
+              "主牌花色的A",
+              "大王",
+              "主牌花色的本级点数牌",
+              "主牌花色的K"
+            ]
+          },
+          "correct": 1,
+          "explain": {
+            "en": "Both jokers outrank every other card. The Big Joker sits at the very top of the hierarchy, above the Small Joker.",
+            "zh": "大小王都比其他所有牌大。大王排在整个顺序的最顶端，比小王还高。"
+          }
+        },
+        {
+          "q": {
+            "en": "Main rank is 7 and the main suit is Clubs. Which is the strongest non-joker card in the entire hand?",
+            "zh": "等级是7、主牌花色是梅花时，全场（除大小王外）最大的牌是哪一张？"
+          },
+          "options": {
+            "en": [
+              "A♣",
+              "7♣",
+              "7♦",
+              "K♣"
+            ],
+            "zh": [
+              "A♣",
+              "7♣",
+              "7♦",
+              "K♣"
+            ]
+          },
+          "correct": 1,
+          "explain": {
+            "en": "The main-rank card in the main suit (7♣) sits just below the jokers — higher than the rank-7s of the other suits and higher than every other card in Clubs.",
+            "zh": "主牌花色里的本级点数牌（这里是7♣）仅次于大小王——比另外三个花色的7都大，也比梅花里的其他任何牌都大。"
+          }
+        },
+        {
+          "q": {
+            "en": "With main rank 7 and main suit Clubs, how do 7♦, 7♥, and 7♠ compare to each other?",
+            "zh": "等级是7、主牌花色是梅花时，7♦、7♥、7♠这三张牌之间大小如何比较？"
+          },
+          "options": {
+            "en": [
+              "7♦ beats the other two",
+              "They all rank equally, below 7♣ but above the rest of the main",
+              "They rank normally within their own suits",
+              "They’re worthless once the main is declared"
+            ],
+            "zh": [
+              "7♦比另外两张大",
+              "三张牌大小相同，都低于7♣但高于其余主牌",
+              "它们按各自花色正常排列大小",
+              "一旦亮主，它们就一文不值"
+            ]
+          },
+          "correct": 1,
+          "explain": {
+            "en": "The main-rank cards in the three non-main suits (“off-suit rank cards”) all rank equal to each other — below the main-suit rank card, but still part of the main, and still above every ordinary card.",
+            "zh": "另外三个花色里的本级点数牌（“副级牌”）彼此大小相同——低于主牌花色的那张，但仍然是主牌，仍然比任何普通牌都大。"
+          }
+        },
+        {
+          "q": {
+            "en": "What happens to the K♣ once 7 is the main rank and Clubs is the main suit?",
+            "zh": "等级是7、梅花是主牌时，K♣会发生什么变化？"
+          },
+          "options": {
+            "en": [
+              "It’s removed from the game",
+              "It stays a main card, ranked below 7♣, roughly where a King normally sits",
+              "It becomes worth 0 points automatically",
+              "It moves to become a Diamond"
+            ],
+            "zh": [
+              "它被移出游戏",
+              "它依然是主牌，排在7♣之下，位置大致相当于K原本所在的位置",
+              "它自动变成0分",
+              "它变成了方块"
+            ]
+          },
+          "correct": 1,
+          "explain": {
+            "en": "Aside from the promoted rank card, the rest of the main suit keeps its normal internal order (A, K, Q, J, 10, 9, 8, 6, 5, 4, 3 — skipping 7, which was promoted).",
+            "zh": "除了被抽走的本级点数牌之外，主牌花色其余的牌仍按正常顺序排列（A、K、Q、J、10、9、8、6、5、4、3——跳过被抽走的7）。"
+          }
+        },
+        {
+          "q": {
+            "en": "What is a “no-main” hand?",
+            "zh": "什么是“没有主牌花色”（无将）的一局？"
+          },
+          "options": {
+            "en": [
+              "A hand with two main suits at once",
+              "A hand where only jokers and main-rank cards are the main — there’s no main suit at all",
+              "A hand where nobody has any main cards",
+              "An old name for the bottom cards"
+            ],
+            "zh": [
+              "同时有两个主牌花色的一局",
+              "只有大小王和本级点数牌算主牌、完全没有主牌花色的一局",
+              "没有人手里有主牌的一局",
+              "底牌的另一种叫法"
+            ]
+          },
+          "correct": 1,
+          "explain": {
+            "en": "When the main is declared with a pair of matching jokers, the hand is played “no main”: only the 4 jokers and 8 main-rank cards are the main, and all four suits play as ordinary side suits.",
+            "zh": "当一对大小王赢得亮主时，这一局就会打成“无将”：只有4张大小王和8张本级点数牌算主牌，四个花色都按普通副牌处理。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "icon": "亮",
+      "title": {
+        "en": "Calling the Main",
+        "zh": "亮主"
+      },
+      "meta": {
+        "en": "Declaring",
+        "zh": "宣告主牌"
+      },
+      "subtitle": {
+        "en": "亮主 — “revealing the main” — happens live, as the cards are dealt.",
+        "zh": "“亮主”是在发牌过程中当场进行的。"
+      },
+      "content": {
+        "en": "<p>Nobody chooses the main before the deal. Instead, as cards are dealt out one by one, any player who receives a qualifying card may <b>flip it face-up</b> on the table to provisionally claim that suit as the main. This is called <b>亮主</b> (<i>liàng zhǔ</i>), literally “revealing the master [suit].”</p><p>Declarations only get <i>stronger</i> as the deal continues — each new one must beat whatever is currently showing:</p>{{DIAGRAM:declarationLadder}}<p>Whoever holds the table when dealing finishes wins the declaration. Their team becomes the <b>host team</b> for the hand, and that player personally <b>picks up the bottom cards</b> and leads the very first trick — details in the next lesson.</p><div class=\"callout variation\"><b>Common variation</b>The exact rules for when a second player can “reinforce” or challenge a declaration — and what happens if nobody declares at all — vary a lot between groups. Many tables fall back to the top card of the bottom cards if the deal goes by with no declaration.</div>",
+        "zh": "<p>主牌花色不是提前定好的。发牌过程中，只要有玩家拿到符合条件的牌，就可以<b>把它翻开亮出来</b>，当场初步宣告这个花色为主牌。这个动作叫<b>亮主</b>（liàng zhǔ），字面意思是\"亮出主人[花色]\"。</p><p>宣告只能越叫越强——发牌还没结束时，每一个新的宣告都必须压过当前台面上的那个：</p>{{DIAGRAM:declarationLadder}}<p>发牌结束时，台面上宣告最强的人赢得亮主。他们的队伍成为这一局的<b>攻方</b>，那位玩家本人负责<b>拿起底牌</b>，并且打出这一局的第一张牌——下一课会详细讲。</p><div class=\"callout variation\"><b>常见变化</b>关于第二个玩家能不能\"接风\"或挑战已有的宣告，以及如果整个发牌过程都没人亮主该怎么办，各地牌桌的规则差异很大。很多牌桌会在无人亮主时改用底牌最上面那张牌来定主。</div>"
+      },
+      "questions": [
+        {
+          "q": {
+            "en": "During the deal, how can a player provisionally claim the main suit?",
+            "zh": "发牌过程中，玩家如何初步宣告主牌花色？"
+          },
+          "options": {
+            "en": [
+              "By announcing it out loud before cards are dealt",
+              "By exposing a main-rank card (or pair) face-up as it’s dealt to them",
+              "By discarding the bottom cards early",
+              "The main can never be chosen by players — it’s always the top bottom card"
+            ],
+            "zh": [
+              "在发牌前口头宣布",
+              "在拿到符合条件的牌时把它翻开亮出来",
+              "提前把底牌弃掉",
+              "主牌永远不能由玩家选择，只能看底牌最上面那张"
+            ]
+          },
+          "correct": 1,
+          "explain": {
+            "en": "As cards are dealt, a player may flip a qualifying card face-up to declare that suit as the main — called 亮主, “revealing the main.”",
+            "zh": "发牌过程中，玩家可以把符合条件的牌翻开来宣告主牌花色——这个动作叫“亮主”。"
+          }
+        },
+        {
+          "q": {
+            "en": "Rank these declarations from weakest to strongest.",
+            "zh": "请按从弱到强给这些宣告排序。"
+          },
+          "options": {
+            "en": [
+              "Joker pair < suit pair < single card",
+              "Single card < matching pair of main-rank cards < pair of matching jokers",
+              "They’re all equally strong; only the first one counts",
+              "Pair of matching jokers < single card < suit pair"
+            ],
+            "zh": [
+              "王对 < 花色对 < 单张",
+              "单张 < 本级点数配对 < 大小王配对",
+              "它们一样强，只有第一个算数",
+              "大小王配对 < 单张 < 花色对"
+            ]
+          },
+          "correct": 1,
+          "explain": {
+            "en": "A single main-rank card is weakest, a matching pair beats it, and a pair of identical jokers is strongest of all — and forces the hand into no-main.",
+            "zh": "单张本级点数牌最弱，一对相同的本级点数牌能压过它，一对相同的大小王是所有宣告中最强的——并会把这一局定成无将。"
+          }
+        },
+        {
+          "q": {
+            "en": "What happens once someone makes the final, unbeaten declaration?",
+            "zh": "当有人做出最终、无人能压过的宣告后会发生什么？"
+          },
+          "options": {
+            "en": [
+              "Nothing changes for them",
+              "Their team becomes the host team, and they pick up the bottom cards (chaodi) and lead first",
+              "The other team automatically wins the hand",
+              "The deal restarts from scratch"
+            ],
+            "zh": [
+              "对他们没有任何影响",
+              "他们的队伍成为攻方，本人拿起底牌并打出第一张牌",
+              "对方队伍自动赢下这一局",
+              "整个发牌过程重新开始"
+            ]
+          },
+          "correct": 1,
+          "explain": {
+            "en": "The winning declarer’s team becomes the host team for the hand; that player chaodis — collects the bottom cards, buries cards back down, and opens the first trick.",
+            "zh": "赢得亮主的那位玩家，其队伍成为这一局的攻方；这位玩家收起底牌、重新埋牌，并打出第一墩。"
+          }
+        },
+        {
+          "q": {
+            "en": "What happens to the main suit if the winning declaration is a pair of jokers?",
+            "zh": "如果获胜的宣告是一对大小王，主牌花色会怎样？"
+          },
+          "options": {
+            "en": [
+              "The main suit becomes whichever suit was declared first",
+              "There is no main suit — the hand is played “no main”",
+              "All four suits become the main",
+              "The bottom cards become the main"
+            ],
+            "zh": [
+              "主牌花色变成最先被宣告的那个花色",
+              "没有主牌花色——这一局打成“无将”",
+              "四个花色都变成主牌",
+              "底牌变成主牌"
+            ]
+          },
+          "correct": 1,
+          "explain": {
+            "en": "A joker-pair declaration doesn’t set a suit at all. The hand becomes a no-main hand, where only jokers and main-rank cards are the main.",
+            "zh": "一对大小王的宣告根本不设定花色。这一局会打成无将，只有大小王和本级点数牌算主牌。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "m6",
+      "icon": "底",
+      "title": {
+        "en": "The Deal & the Bottom Cards",
+        "zh": "发牌与底牌"
+      },
+      "meta": {
+        "en": "Setup",
+        "zh": "牌局准备"
+      },
+      "subtitle": {
+        "en": "底牌 — the hidden cards that can swing the whole hand.",
+        "zh": "底牌——能左右整局胜负的隐藏的牌。"
+      },
+      "content": {
+        "en": "<p>With 108 cards and 4 players, the deal doesn’t split evenly. Each player receives <b>25 cards</b> (100 total) — the leftover <b>8 cards</b> are set face-down as the <b>bottom cards</b> — 底牌 (<i>dǐpái</i>), literally “bottom cards.”</p>{{DIAGRAM:dealTable}}<p>Once dealing ends, the winning declarer <b>picks up the bottom cards</b> — briefly holding 33 cards — studies them, then <b>buries 8 cards face-down</b> as a brand-new set of bottom cards. This whole exchange — picking up the bottom cards and burying 8 back down — is called <b>chaodi</b> (拄底). Those 8 buried cards stay completely hidden until the very last trick of the hand.</p><p>That same player becomes the <b>first leader</b>, opening the hand’s first trick.</p><div class=\"callout\"><b>Why it matters</b>If the defending team wins the final trick, whatever is hidden in those bottom cards gets added to <i>their</i> score — multiplied. Burying point-cards there is a real gamble, not a place to dump junk automatically.</div>",
+        "zh": "<p>108张牌、4名玩家，发牌并不能均分。每位玩家拿到<b>25张牌</b>（共100张）——剩下的<b>8张</b>扣着放在桌上，就是<b>底牌</b>（dǐpái，\"垫底的牌\"）。</p>{{DIAGRAM:dealTable}}<p>发牌结束后，赢得亮主的那位玩家会<b>拿起底牌</b>——手里短暂持有33张牌——仔细看过之后，再<b>扣着埋下8张牌</b>作为新的底牌。这被埋下的8张牌会一直保密，直到这一局的最后一墩才会揭晓。</p><p>这位玩家同时成为<b>第一个出牌的人</b>，打出这一局的第一墩。</p><div class=\"callout\"><b>这一点为什么重要</b>如果守方赢下最后一墩，藏在底牌里的牌就会计入<i>他们</i>的分数——而且是加倍计算的。把分牌埋进底牌是一场真正的赌博，不是随便找地方扔垃圾牌。</div>"
+      },
+      "questions": [
+        {
+          "q": {
+            "en": "In a 4-player game, how many cards does each player receive, and how many go to the bottom cards?",
+            "zh": "4人局中，每位玩家能拿到多少张牌，底牌又有多少张？"
+          },
+          "options": {
+            "en": [
+              "27 each, 0 to the bottom cards",
+              "25 each, 8 to the bottom cards",
+              "20 each, 28 to the bottom cards",
+              "26 each, 4 to the bottom cards"
+            ],
+            "zh": [
+              "每人27张，底牌0张",
+              "每人25张，底牌8张",
+              "每人20张，底牌28张",
+              "每人26张，底牌4张"
+            ]
+          },
+          "correct": 1,
+          "explain": {
+            "en": "108 cards ÷ 4 players = 25 cards each (100 total), leaving 8 cards face-down as the bottom cards (底牌).",
+            "zh": "108张牌 ÷ 4位玩家 = 每人25张（共100张），剩下8张扣着放在一边作为底牌。"
+          }
+        },
+        {
+          "q": {
+            "en": "What does the declarer do with the bottom cards once dealing ends?",
+            "zh": "发牌结束后，亮主成功的玩家会怎么处理底牌？"
+          },
+          "options": {
+            "en": [
+              "Leaves them untouched until the final trick",
+              "Picks them up — chaodi — now holding 33 cards, then buries 8 cards face-down as a new set of bottom cards",
+              "Splits them evenly between both teams",
+              "Discards them face-up for everyone to see"
+            ],
+            "zh": [
+              "放着不动，直到最后一墩才处理",
+              "拿起底牌（此时手里共33张），再埋下8张作为新底牌",
+              "把底牌平分给两支队伍",
+              "把底牌翻开让所有人看"
+            ]
+          },
+          "correct": 1,
+          "explain": {
+            "en": "The winning declarer chaodis — adds the 8 bottom cards to their hand, then discards 8 cards face-down as a new hidden set of bottom cards that stays secret until the last trick.",
+            "zh": "赢得亮主的玩家把8张底牌收进手里，然后扣着埋下8张牌——这副新的底牌会一直保密到最后一墩。"
+          }
+        },
+        {
+          "q": {
+            "en": "Who leads the very first trick of the hand?",
+            "zh": "这一局的第一墩由谁打出？"
+          },
+          "options": {
+            "en": [
+              "The player to the dealer’s left, always",
+              "Whoever holds the Ace of the main",
+              "The declarer, who also took the bottom cards (chaodi)",
+              "It’s decided by the highest card dealt"
+            ],
+            "zh": [
+              "永远是庄家左手边的玩家",
+              "手握主牌A的玩家",
+              "亮主成功、拿了底牌的那位玩家",
+              "由发到的最大的牌决定"
+            ]
+          },
+          "correct": 2,
+          "explain": {
+            "en": "The player who won the declaration — and therefore chaodi’d, taking and re-burying the bottom cards — opens the first trick.",
+            "zh": "赢得亮主宣告——因此拿起并重新埋下底牌——的那位玩家，负责打出这一局的第一墩。"
+          }
+        },
+        {
+          "q": {
+            "en": "Why is burying point-cards (5s, 10s, Kings) in the bottom cards risky?",
+            "zh": "为什么把5、10、K这样的分牌埋进底牌有风险？"
+          },
+          "options": {
+            "en": [
+              "It isn’t risky — buried points are safe forever",
+              "If the defending team wins the last trick, they capture the bottom cards’ points, multiplied",
+              "The bottom cards are shown to opponents immediately",
+              "Buried point-cards are automatically lost"
+            ],
+            "zh": [
+              "没有风险——埋进去的分牌永远安全",
+              "如果守方赢下最后一墩，就会加倍抢走底牌里的分数",
+              "底牌会立刻翻给对手看",
+              "埋进底牌的分牌会自动作废"
+            ]
+          },
+          "correct": 1,
+          "explain": {
+            "en": "If the defenders take the final trick, whatever’s hidden in the bottom cards is added to their score — multiplied by how that last trick was won.",
+            "zh": "如果守方拿下最后一墩，藏在底牌里的一切都会计入他们的分数——而且按最后一墩的牌型加倍计算。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "m7",
+      "icon": "拖",
+      "title": {
+        "en": "Playing a Trick",
+        "zh": "出牌与跟牌"
+      },
+      "meta": {
+        "en": "Combinations & following suit",
+        "zh": "牌型与跟牌规则"
+      },
+      "subtitle": {
+        "en": "Singles, pairs, and the tractor that gives the game its nickname.",
+        "zh": "单张、对子，以及让这个游戏得名的拖拉机。"
+      },
+      "content": {
+        "en": "<p>The player leading a trick can open with more than just a single card:</p>{{DIAGRAM:combosLadder}}<p>The tractor is the move the game is nicknamed for: 8♥8♥ next to 9♥9♥ outranks a single pair, and a longer run outranks a shorter one.</p><h3>Following suit</h3><p>Everyone else must respond in the <b>same suit and structure</b> if they can — pair for pair, tractor for tractor. If a player is short on matching cards, they fill in with what they have.</p><p>If a player holds <b>no cards at all</b> in the suit that was led, they’re free to play <i>anything</i> — including the main. Playing the main while void like this is often called <b>playing main</b>. And if the main itself is led, everyone must respond with the main if they can, following the same single/pair/tractor structure.</p><h3>Who wins the trick</h3><p>If nobody plays the main, the <b>highest card of the led suit</b> wins. If <b>any main</b> appears in the trick, the highest main combination wins instead — no matter what was originally led. The winner collects every card played (crucial for tallying points later) and leads the next trick.</p><div class=\"callout variation\"><b>Common variation</b>Advanced play allows “throwing” (甩牌) — leading several non-matching combinations from one suit at once, if they’re provably unbeatable. Many casual tables and beginner guides skip this rule entirely.</div>",
+        "zh": "<p>打头出牌的人，能出的不只是单张牌：</p>{{DIAGRAM:combosLadder}}<p>拖拉机正是这个游戏得名的由来：梅花8♥8♥紧接着9♥9♥的拖拉机，能压过单独的一个对子；更长的拖拉机能压过更短的。</p><h3>跟牌</h3><p>其他人必须尽量用<b>相同花色、相同牌型</b>来应对——对子对对子，拖拉机对拖拉机。如果手里凑不出足够的同花色牌，就用手上有的先凑上。</p><p>如果一名玩家<b>手里完全没有</b>被打头出的那个花色，他就可以随意出<i>任何</i>牌——包括主牌。手里没有该花色却出主牌，通常叫做<b>垫主/杀</b>。如果打头出的就是主牌，其他人只要手里有主牌就必须跟主牌，同样要遵守单张/对子/拖拉机的牌型规则。</p><h3>谁赢下这一墩</h3><p>如果没有人出主牌，<b>被打头花色里最大的那张牌</b>赢下这一墩。只要<b>有人出了主牌</b>，最大的主牌牌型就会赢下这一墩——不管最初打头出的是什么花色。赢下这一墩的人收走这一墩所有的牌（这对之后计分至关重要），并打出下一墩。</p><div class=\"callout variation\"><b>常见变化</b>进阶玩法允许\"甩牌\"——一次性打出同一花色里几组不同的牌型，前提是能证明这些牌在这个花色里都不可能被压过。很多休闲牌桌和新手教程会直接跳过这条规则。</div>"
+      },
+      "questions": [
+        {
+          "q": {
+            "en": "Besides a single card, what other combinations can a player lead?",
+            "zh": "除了单张，打头出牌还能出哪些牌型？"
+          },
+          "options": {
+            "en": [
+              "Only pairs, never anything else",
+              "A pair, or a tractor — two or more consecutive same-suit pairs",
+              "Any three random cards",
+              "A full suit only"
+            ],
+            "zh": [
+              "只能出对子，别的都不行",
+              "对子，或者拖拉机——同一花色里连续的对子",
+              "随便三张不相关的牌",
+              "整个一个花色的牌"
+            ]
+          },
+          "correct": 1,
+          "explain": {
+            "en": "A trick can open with a single card, a matching pair, or a tractor: consecutive same-suit pairs like 7♥7♥-8♥8♥ — the mechanic the game is nicknamed for.",
+            "zh": "打头出牌可以是单张、对子，或者拖拉机：同一花色里连续的对子，比如7♥7♥-8♥8♥——这正是游戏得名的牌型。"
+          }
+        },
+        {
+          "q": {
+            "en": "If a player has none of the suit that was led, what can they do?",
+            "zh": "如果一名玩家手里完全没有被打头出的那个花色，他能做什么？"
+          },
+          "options": {
+            "en": [
+              "They must forfeit the trick",
+              "They may play any card, including the main — sometimes called “playing main”",
+              "They must pass their turn",
+              "They must borrow a card from their partner"
+            ],
+            "zh": [
+              "必须放弃这一墩",
+              "可以出任何牌，包括主牌——这叫做垫主/杀",
+              "必须跳过自己的回合",
+              "必须向搭档借一张牌"
+            ]
+          },
+          "correct": 1,
+          "explain": {
+            "en": "Being void in the led suit frees a player to play anything, including the main, to try to win the trick.",
+            "zh": "手里没有被打头出的花色时，玩家可以自由出任何牌，包括主牌，来争取赢下这一墩。"
+          }
+        },
+        {
+          "q": {
+            "en": "If main cards are led, how must other players respond?",
+            "zh": "如果打头出的是主牌，其他人该怎么跟牌？"
+          },
+          "options": {
+            "en": [
+              "They ignore the main and follow any other suit",
+              "They must respond with the main if they have it, following the same single/pair/tractor structure",
+              "The main can never be led",
+              "Only the dealer may respond"
+            ],
+            "zh": [
+              "可以无视主牌，跟别的花色",
+              "只要手里有主牌就必须用主牌跟牌，并遵守相同的单张/对子/拖拉机结构",
+              "主牌永远不能被打头出",
+              "只有庄家才需要跟牌"
+            ]
+          },
+          "correct": 1,
+          "explain": {
+            "en": "The main is treated as its own suit for following purposes — if it’s led, everyone must follow with the main if they can.",
+            "zh": "对于跟牌规则来说，主牌本身就相当于一个独立的“花色”——如果主牌被打头出，其他人只要手里有就必须跟主牌。"
+          }
+        },
+        {
+          "q": {
+            "en": "If no main is played in a trick, who wins it?",
+            "zh": "如果这一墩里没有人出主牌，谁赢下这一墩？"
+          },
+          "options": {
+            "en": [
+              "Whoever played first",
+              "The highest card of the suit that was led",
+              "Whoever has the most cards left",
+              "It’s always a tie, replayed"
+            ],
+            "zh": [
+              "谁先出牌谁赢",
+              "被打头出花色里最大的那张牌赢",
+              "手里剩牌最多的人赢",
+              "永远算平局，重新再来"
+            ]
+          },
+          "correct": 1,
+          "explain": {
+            "en": "With no main played, only cards of the led suit are eligible to win — the highest one takes the trick.",
+            "zh": "没有主牌出现时，只有被打头出花色的牌才有资格赢——其中最大的那张拿下这一墩。"
+          }
+        },
+        {
+          "q": {
+            "en": "If any main is played in a trick, who wins it?",
+            "zh": "如果这一墩里有人出了主牌，谁赢下这一墩？"
+          },
+          "options": {
+            "en": [
+              "The highest card of the led suit still wins",
+              "The highest main card or combination played wins, no matter what was led",
+              "Whichever player is the dealer automatically wins",
+              "The trick is discarded"
+            ],
+            "zh": [
+              "被打头出花色里最大的牌依然获胜",
+              "不管最初打头出的是什么，最大的主牌牌型获胜",
+              "庄家自动获胜",
+              "这一墩作废"
+            ]
+          },
+          "correct": 1,
+          "explain": {
+            "en": "The main beats everything. If any main appears in the trick, the highest main combination takes it, regardless of what was led.",
+            "zh": "主牌能压过一切。只要这一墩里出现主牌，最大的主牌牌型就会赢下这一墩，无论最初打头出的是什么花色。"
+          }
+        },
+        {
+          "q": {
+            "en": "If the main rank is 7, why can 6♥ and 8♥ form a tractor together in the main suit?",
+            "zh": "如果等级是7，为什么6♥和8♥能在主牌花色里组成拖拉机？"
+          },
+          "options": {
+            "en": [
+              "They can’t — 6 and 8 are never adjacent",
+              "Once the 7s are promoted out of the suit’s normal order, 6 and 8 become next to each other",
+              "All main cards automatically form tractors",
+              "Only jokers can form tractors"
+            ],
+            "zh": [
+              "不可能——6和8永远不相邻",
+              "7被从这个花色的正常顺序里抽走后，6和8就变得相邻了",
+              "所有主牌都自动组成拖拉机",
+              "只有大小王才能组成拖拉机"
+            ]
+          },
+          "correct": 1,
+          "explain": {
+            "en": "Once the main-rank card is pulled out of its suit’s normal sequence, the cards on either side of it become adjacent — a quirk unique to the main suit.",
+            "zh": "本级点数牌被从它所在花色的正常顺序里抽走后，它两边的牌就会变得相邻——这是主牌花色特有的一个细节。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "m8",
+      "icon": "庄",
+      "title": {
+        "en": "Keeping Score",
+        "zh": "计分与获胜"
+      },
+      "meta": {
+        "en": "Scoring & winning",
+        "zh": "计分与胜负"
+      },
+      "subtitle": {
+        "en": "200 points, one threshold, and bottom cards that can multiply.",
+        "zh": "200分、一个分界线，还有一个可能翻倍的底牌。"
+      },
+      "content": {
+        "en": "<p>Across the hand, the <b>defending team</b> tallies every point-card (5s, 10s, Kings) they capture in tricks they win. Since the whole deck holds <b>200 points</b>, only one number needs tracking — whatever the defenders collect tells you everything.</p>{{DIAGRAM:bandTable}}<p>The bands are all 40 points wide, centered on the halfway mark: capturing <b>80 or more</b> of the 200 points is what lets the defenders “win” the hand and flip roles.</p><h3>The bottom cards’ multiplier</h3><p>If the <b>defending team wins the very last trick</b>, the buried bottom cards are exposed to them — and their points count <i>multiplied</i>, based on how big the winning combination was: a single ×2, a pair ×4, a two-pair tractor ×8. If the host team wins the last trick instead, the bottom cards are safe.</p><h3>Winning the match</h3><p>A team wins the whole match only by being the <b>host team on a hand where the main rank is Ace</b>, and holding the defenders below the flip threshold. You can’t skip past Ace with one huge win at a lower rank — you have to clear it as the host team.</p><div class=\"callout\"><b>Not a Shengji term</b>Players sometimes borrow Hearts’ phrase “shooting the moon” for a 0-point shutout — but it isn’t an authentic Shengji term. Locally, it’s just called a shutout.</div>",
+        "zh": "<p>整局牌打下来，<b>守方</b>会累计他们在自己赢下的墩里抢到的每一张分牌（5、10、K）。因为整副牌一共只有<b>200分</b>，所以只需要盯住一个数字——守方抢到多少分，就能说明这一局的一切。</p>{{DIAGRAM:bandTable}}<p>这些区间都是40分一档，围绕着中点划分：守方只要抢到<b>80分或更多</b>（总分200分的一半以上），就能\"守住\"这一局，让角色互换。</p><h3>底牌的翻倍效应</h3><p>如果<b>守方赢下最后一墩</b>，被埋起来的底牌就会翻开归他们所有——而且底牌里的分数会按赢下最后一墩的牌型<b>翻倍</b>计算：单张×2，对子×4，两连对拖拉机×8。如果是攻方赢下最后一墩，底牌就安然无事。</p><h3>赢得整场比赛</h3><p>一支队伍只有在<b>担任攻方、且主牌点数是A的那一局</b>里守住守方（把对方分数压在分界线以下），才能赢得整场比赛。不能靠在低等级打出一局大胜就直接跳过A——必须亲自以攻方的身份打赢A级这一局。</p><div class=\"callout\"><b>不是升级里的说法</b>有些玩家会借用扑克牌游戏\"红心大战\"（Hearts）里的说法\"shooting the moon\"来形容守方光头（0分）的情况——但这并不是升级本身的正统术语。在牌桌上，这种情况通常直接叫\"光头\"。</div>"
+      },
+      "questions": [
+        {
+          "q": {
+            "en": "What is the threshold for the defending team to “win” the hand and flip roles?",
+            "zh": "守方要“守住”这一局、让角色互换，分数门槛是多少？"
+          },
+          "options": {
+            "en": [
+              "Any points at all",
+              "At least 80 of the 200 total points",
+              "Exactly 100 points",
+              "All 200 points"
+            ],
+            "zh": [
+              "只要有分就行",
+              "总分200分中至少80分",
+              "正好100分",
+              "全部200分"
+            ]
+          },
+          "correct": 1,
+          "explain": {
+            "en": "If the defenders capture 80 or more of the 200 points, they’ve held the host team back — the hand flips, and they become the new host team.",
+            "zh": "只要守方抢到总分200分中的80分或更多，就说明他们成功拦住了攻方——这一局角色互换，守方成为下一局的攻方。"
+          }
+        },
+        {
+          "q": {
+            "en": "If the defending team wins the very last trick, what happens to the buried bottom cards?",
+            "zh": "如果守方赢下最后一墩，被埋起来的底牌会怎样？"
+          },
+          "options": {
+            "en": [
+              "Nothing — the bottom cards are discarded",
+              "Its points are added to the defenders’ total, multiplied by the size of the winning combination",
+              "It’s returned to the host team",
+              "It’s split evenly"
+            ],
+            "zh": [
+              "没有影响——底牌直接作废",
+              "底牌里的分数计入守方总分，并按赢下最后一墩的牌型翻倍",
+              "底牌归还给攻方",
+              "底牌平分给双方"
+            ]
+          },
+          "correct": 1,
+          "explain": {
+            "en": "A last-trick win by the defenders exposes the bottom cards to them, at a multiplier — a single ×2, a pair ×4, a two-pair tractor ×8, and so on.",
+            "zh": "守方赢下最后一墩，就会让底牌翻开归他们所有——而且按翻倍计算：单张×2，对子×4，两连对拖拉机×8，以此类推。"
+          }
+        },
+        {
+          "q": {
+            "en": "If the defenders capture 0 points all hand, how much does the host team’s rank advance?",
+            "zh": "如果守方整局一分未得，攻方的等级会跳升多少？"
+          },
+          "options": {
+            "en": [
+              "It doesn’t move",
+              "+1",
+              "+3 — the maximum single-hand jump",
+              "The match ends immediately"
+            ],
+            "zh": [
+              "不会变化",
+              "+1",
+              "+3——单局能跳升的最大幅度",
+              "比赛立刻结束"
+            ]
+          },
+          "correct": 2,
+          "explain": {
+            "en": "A complete shutout is the biggest possible swing, advancing the host team’s rank by 3 in one hand.",
+            "zh": "守方颗粒无收（光头）是单局中最大的摆动幅度，会让攻方的等级一口气跳升3级。"
+          }
+        },
+        {
+          "q": {
+            "en": "What must a team do to win the entire match?",
+            "zh": "一支队伍要赢得整场比赛，必须做到什么？"
+          },
+          "options": {
+            "en": [
+              "Reach any rank above 10",
+              "Successfully host a hand where the main rank is Ace",
+              "Capture more points than their opponents over the whole match",
+              "Win three hands in a row"
+            ],
+            "zh": [
+              "等级超过10即可",
+              "在主牌点数为A的那一局成功担任攻方并守住",
+              "整场比赛累计分数比对方多",
+              "连续赢下三局"
+            ]
+          },
+          "correct": 1,
+          "explain": {
+            "en": "A team wins only by clearing a hand as the host team while the main rank is Ace — not by leapfrogging past it.",
+            "zh": "一支队伍只有在担任攻方、主牌点数为A的那一局守住守方，才能赢得比赛——不能靠等级更低时的大胜直接跳过A。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cap",
+      "icon": "A",
+      "capstone": true,
+      "title": {
+        "en": "Sit at the Table",
+        "zh": "桌上见真章"
+      },
+      "meta": {
+        "en": "Capstone review",
+        "zh": "综合复习"
+      },
+      "subtitle": {
+        "en": "One mixed round pulling from every lesson so far.",
+        "zh": "综合前面所有课程内容的一轮混合测验。"
+      },
+      "content": {
+        "en": "<p>You’ve covered the whole hand: teams and rank, points and the bottom cards, the main order, and how a trick is led, followed, and won. This last round mixes questions from across all eight lessons — clear it, and you’ve got the whole game at the table.</p><div class=\"callout\"><b>Ready when you are</b>No new material here — just a chance to prove it all sticks together.</div>",
+        "zh": "<p>你已经学完了一整局牌的全过程：队伍与等级、分数与底牌、主牌顺序，以及一墩牌是如何打头、跟牌、并分出胜负的。这最后一轮把前面八节课的问题混在一起——闯过去，你就掌握了整桌牌局。</p><div class=\"callout\"><b>随时可以开始</b>这里没有新知识——只是一次检验你是否已经把所有内容融会贯通的机会。</div>"
+      },
+      "questions": [
+        {
+          "q": {
+            "en": "Which single outcome most directly raises a team’s rank?",
+            "zh": "下列哪一项最直接地提升一支队伍的等级？"
+          },
+          "options": {
+            "en": [
+              "Successfully hosting a hand and holding the defenders under 80 points",
+              "Simply dealing the cards",
+              "Declaring the main, regardless of the outcome",
+              "Winning the first trick of a hand"
+            ],
+            "zh": [
+              "担任攻方打赢一局，并把守方的分数压在80分以下",
+              "单纯发牌",
+              "不管结果如何，只要亮主就行",
+              "赢下一局的第一墩"
+            ]
+          },
+          "correct": 0,
+          "explain": {
+            "en": "Rank climbs when a team hosts a hand and keeps the defenders’ captured points below the 80-point flip threshold.",
+            "zh": "等级的提升来自担任攻方打赢一局，并把守方抢到的分数压在80分的分界线以下。"
+          }
+        },
+        {
+          "q": {
+            "en": "Of these four cards, which ranks weakest — Big Joker, the main-rank card in the main suit, the main-rank card in an off-suit, or the King of an unrelated non-main suit?",
+            "zh": "以下四张牌中，哪一张最弱：大王、主牌花色里的本级点数牌、副花色里的本级点数牌，还是与主牌无关的某个普通花色里的K？"
+          },
+          "options": {
+            "en": [
+              "Big Joker",
+              "The main-rank card in the main suit",
+              "The main-rank card in an off-suit",
+              "The King of an unrelated non-main suit"
+            ],
+            "zh": [
+              "大王",
+              "主牌花色里的本级点数牌",
+              "副花色里的本级点数牌",
+              "与主牌无关的普通花色K"
+            ]
+          },
+          "correct": 3,
+          "explain": {
+            "en": "That King isn’t part of the main at all — every card in the main hierarchy (jokers, then the main-suit rank card, then the off-suit rank cards) outranks any ordinary side-suit card.",
+            "zh": "那张K根本不是主牌——整个主牌顺序（大小王，然后是主牌花色的本级点数牌，再然后是副花色的本级点数牌）里的任何一张，都比普通副花色的牌大。"
+          }
+        },
+        {
+          "q": {
+            "en": "True or false: a player who is void in the led suit is required to play the main if they hold any.",
+            "zh": "判断对错：手里没有被打头出花色的玩家，如果有主牌，就必须出主牌。"
+          },
+          "options": {
+            "en": [
+              "True — playing main is mandatory whenever possible",
+              "False — being void just permits playing anything, including the main; it isn’t required"
+            ],
+            "zh": [
+              "对——只要能垫主就必须垫主",
+              "错——手里没有该花色只是允许出任意牌，包括主牌，但并非强制"
+            ]
+          },
+          "correct": 1,
+          "explain": {
+            "en": "Void players may play any card, including the main — they’re not obligated to.",
+            "zh": "手里没有被打头出花色的玩家，可以出任意牌，包括主牌——但没有义务这样做。"
+          }
+        },
+        {
+          "q": {
+            "en": "In one sentence: what is a tractor?",
+            "zh": "用一句话说：什么是拖拉机？"
+          },
+          "options": {
+            "en": [
+              "Any two cards played together",
+              "Two or more consecutive pairs, all in the same suit",
+              "A single main card of high rank",
+              "The name for the bottom cards"
+            ],
+            "zh": [
+              "随便两张一起出的牌",
+              "同一花色里两组或更多连续的对子",
+              "一张点数很大的主牌",
+              "底牌的别名"
+            ]
+          },
+          "correct": 1,
+          "explain": {
+            "en": "A tractor is two or more consecutive same-suit pairs — the combination that gives the game its English nickname.",
+            "zh": "拖拉机是同一花色里两组或更多连续的对子——正是这个游戏得名的牌型。"
+          }
+        },
+        {
+          "q": {
+            "en": "What is 底牌, and when does it stop being secret?",
+            "zh": "底牌是什么，它什么时候不再保密？"
+          },
+          "options": {
+            "en": [
+              "The main suit — secret until declared",
+              "The bottom cards — hidden until the last trick of the hand",
+              "A player’s hand — always secret",
+              "The rank ladder — never secret"
+            ],
+            "zh": [
+              "主牌花色——在亮主之前保密",
+              "底牌——在这一局的最后一墩之前一直保密",
+              "某位玩家的手牌——永远保密",
+              "等级阶梯——从不保密"
+            ]
+          },
+          "correct": 1,
+          "explain": {
+            "en": "底牌 (dǐpái) is the bottom cards: 8 cards buried face-down by the declarer, hidden until the final trick reveals whether the defenders capture them.",
+            "zh": "底牌（dǐpái）是被亮主成功的玩家扣着埋下的8张牌，一直保密到最后一墩揭晓守方是否能把它们抢到手。"
+          }
+        },
+        {
+          "q": {
+            "en": "Why doesn’t a Jack or a Queen ever add to a team’s score when captured?",
+            "zh": "为什么J或Q被抢到手时永远不会给队伍加分？"
+          },
+          "options": {
+            "en": [
+              "Only 5s, 10s, and Kings carry point value — everything else scores 0",
+              "Jacks and Queens are automatically discarded",
+              "They can only be played as the main",
+              "Scoring only counts the last trick"
+            ],
+            "zh": [
+              "只有5、10、K带分值——其余的牌都是0分",
+              "J和Q会被自动弃掉",
+              "它们只能当主牌出",
+              "计分只看最后一墩"
+            ]
+          },
+          "correct": 0,
+          "explain": {
+            "en": "Out of 200 total points in the deck, only 5s (5 pts), 10s (10 pts), and Kings (10 pts) count — Jacks, Queens, Aces, and jokers all score 0.",
+            "zh": "整副牌一共200分，其中只有5（5分）、10（10分）和K（10分）算分——J、Q、A和大小王全部是0分。"
+          }
+        },
+        {
+          "q": {
+            "en": "The defenders finish a hand with 130 points. What happens next?",
+            "zh": "守方这一局结束时抢到130分，接下来会发生什么？"
+          },
+          "options": {
+            "en": [
+              "The host team advances +2 ranks and hosts again",
+              "Nothing changes at all",
+              "The defenders become the new host team and advance +1 rank",
+              "The match ends immediately"
+            ],
+            "zh": [
+              "攻方跳升2级，继续担任攻方",
+              "什么都不会改变",
+              "守方成为新的攻方，并跳升1级",
+              "比赛立刻结束"
+            ]
+          },
+          "correct": 2,
+          "explain": {
+            "en": "130 points falls in the 120–155 band: the defenders take over as the new host team, advancing +1 rank.",
+            "zh": "130分落在120–155这个区间：守方接管成为新的攻方，并跳升1级。"
+          }
+        },
+        {
+          "q": {
+            "en": "Why is burying a King in the bottom cards considered a gamble rather than free storage?",
+            "zh": "为什么把一张K埋进底牌被认为是一场赌博，而不是免费的储藏？"
+          },
+          "options": {
+            "en": [
+              "Kings can’t legally be buried",
+              "If the defenders win the last trick, that King’s points go to them, multiplied by the winning combination’s size",
+              "Buried Kings are removed from the game",
+              "The bottom cards are shown to all players immediately after burial"
+            ],
+            "zh": [
+              "K不能被合法地埋进底牌",
+              "如果守方赢下最后一墩，这张K的分数就会计入他们，并按最后一墩的牌型翻倍",
+              "被埋的K会被移出游戏",
+              "底牌会在埋牌后立刻展示给所有玩家"
+            ]
+          },
+          "correct": 1,
+          "explain": {
+            "en": "A defender win on the final trick exposes the bottom cards and multiplies their points against the host team — so hiding value there is a calculated risk, not a safe discard.",
+            "zh": "守方赢下最后一墩会让底牌翻开，并把里面的分数按牌型翻倍计入攻方对手（守方）——所以把价值藏在那里是一场经过权衡的赌博，而不是安全的弃牌。"
+          }
+        }
+      ]
+    }
+  ]
+}
