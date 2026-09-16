@@ -4,7 +4,7 @@
 
 Shengji (升级, literally "level up," also known as **Tuolaji** / 拖拉机, "Tractor") is one of the most popular card games in China, but it has a reputation for being hard to pick up from a rulebook alone. Shengji Academy breaks it down into short, bilingual lessons — each capped with a quick quiz — so you can go from "never played" to "ready to sit at the table" in about half an hour.
 
-[![Try it now](https://img.shields.io/badge/Try%20it%20now%20%E2%86%92-1C8F68?style=for-the-badge)](#)
+[![Try it now](https://img.shields.io/badge/Try%20it%20now%20%E2%86%92-1C8F68?style=for-the-badge)](https://y2749zha.github.io/level-up/)
 
 ## What's inside
 
